@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily Phạm Style</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="images/logo/logo_white.png" />
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- Link jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Link js -->
+    <script src="js/main.js"></script>
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-color: #ffe6ee">
+    <div class="inner-width">
+      <!-- Navbar -->
+      <nav class="nav__bar">
+        <button class="menu__toggler">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a href="index.html" class="logo"></a>
+        <div class="navbar__menu">
+          <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="product.html">Áo</a></li>
+            <li><a href="product.html">Quần</a></li>
+            <li><a href="product.html">Phụ kiện</a></li>
+            <li>
+              <input class="txt-search" type="text" placeholder="Bạn muốn tìm..." />
+              <button class="btn-search"><i class="fas fa-search"></i></button>
+            </li>
+          </ul>
+        </div>
+        <a href="cart.html" class="cart" style="text-decoration: none"
+          ><i class="fas fa-shopping-bag"></i><sup style="color: #ff6699; font-weight: 700; font-size: 14px; padding: 5px">3</sup></a
+        >
+      </nav>
+    </div>
+
+    <!-- Cart -->
+    <div class="inner-width">
+      <section class="title_" style="border: none">
+        <div class="title__" style="background-color: #fff">
+          <nav aria-label="breadcrumb" style="margin-top: 10px">
+            <ol class="breadcrumb" style="background-color: transparent">
+              <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Giỏ hàng</li>
+            </ol>
+          </nav>
+
+          <!-- ----- cart items details ----- -->
+          <table>
+            <tr>
+              <th>Sản phẩm</th>
+              <th>SL</th>
+              <th>Giá tiền</th>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <a href="product-detail.html">
+                    <img src="images/buy/buy-1.jpg" />
+                  </a>
+                  <div>
+                    <a href="product-detail.html" style="text-decoration: none; color: #000">
+                      <p>ÁO PHÔNG POLO NAM APLTK023</p>
+                    </a>
+                    <small>Giá tiền: 220,000&nbsp;₫</small>
+                    <br />
+                    <a href="" style="text-decoration: none; color: #ff0000"><i class="fas fa-trash"></i>&nbspXoá</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <input type="number" value="1" />
+              </td>
+              <td>220,000&nbsp;₫</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <a href="product-detail.html">
+                    <img src="images/buy/buy-2.jpg" />
+                  </a>
+                  <div>
+                    <a href="product-detail.html" style="text-decoration: none; color: #000">
+                      <p>ÁO PHÔNG POLO NAM APLTK023</p>
+                    </a>
+                    <small>Giá tiền: 220,000&nbsp;₫</small>
+                    <br />
+                    <a href="" style="text-decoration: none; color: #ff0000"><i class="fas fa-trash"></i>&nbspXoá</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <input type="number" value="1" />
+              </td>
+              <td>220,000&nbsp;₫</td>
+            </tr>
+            <tr>
+              <td>
+                <div class="cart-info">
+                  <a href="product-detail.html">
+                    <img src="images/buy/buy-3.jpg" />
+                  </a>
+                  <div>
+                    <a href="product-detail.html" style="text-decoration: none; color: #000">
+                      <p>ÁO PHÔNG POLO NAM APLTK023</p>
+                    </a>
+                    <small>Giá tiền: 220,000&nbsp;₫</small>
+                    <br />
+                    <a href="" style="text-decoration: none; color: #ff0000"><i class="fas fa-trash"></i>&nbspXoá</a>
+                  </div>
+                </div>
+              </td>
+              <td>
+                <input type="number" value="1" />
+              </td>
+              <td>220,000&nbsp;₫</td>
+            </tr>
+          </table>
+
+          <div class="total-price">
+            <table>
+              <tr>
+                <td>Thành tiền</td>
+                <td>660,000&nbsp;₫</td>
+              </tr>
+              <tr>
+                <td>Phí ship</td>
+                <td>35,000&nbsp;₫</td>
+              </tr>
+              <tr>
+                <td style="color: red">Tổng thanh toán</td>
+                <td style="color: red">695,000&nbsp;₫</td>
+              </tr>
+              <tr>
+                <td colspan="2" style="width: 100%; text-align: center">
+                  <button type="button" class="btn btn-danger" style="width: 100%">
+                    <a href="cart-info.html" style="font-size: 14px; color: #fff; text-decoration: none; font-weight: bold">Tiến hành đặt hàng</a>
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer style="margin-top: 20px">
+        <div class="inner-width" style="border-radius: 0.25rem 0.25rem 0 0">
+          <div class="row row_footer" style="padding: 50px 0; margin: 0">
+            <div class="col" style="text-align: center">
+              <a href="index.html">
+                <img class="footer_img" src="images/logo/logo_white.png" width="50%" />
+              </a>
+            </div>
+            <div class="col info">
+              <h5 class="infomation" style="color: #fff">Thông tin liên hệ</h5>
+              <p class="address" style="color: #fff">Hotline: 0123456789</p>
+              <p class="phone" style="color: #fff">Địa chỉ: 688 Lê Đức Thọ, Phường 15, Quận Gò Vấp, TP.HCM</p>
+              <div class="icon">
+                <a href="#">
+                  <i class="fab fa-facebook-square icon_item"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-youtube icon_item"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram icon_item"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter icon_item"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-google-plus-g icon_item"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col maps">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.541439720039!2d106.66881791474455!3d10.846361760864964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529b21978f1eb%3A0x9b0e1c79b2818e55!2zNjg4IEzDqiDEkOG7qWMgVGjhu40sIFBoxrDhu51uZyAxNSwgR8OyIFbhuqVwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1601291924457!5m2!1svi!2s"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+          <div class="row" style="border-top: 3px solid #fff; margin: 0">
+            <div class="col" style="text-align: center">
+              <p class="copyright" style="color: #fff; margin: 0; padding: 8px">&copy; Copyright 2020 by Emily Phạm Style</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
